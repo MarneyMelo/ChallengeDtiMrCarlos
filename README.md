@@ -18,7 +18,7 @@ The project focuses on processing **student grades and attendance**.
 ## How to Run 
 1. Clone the repository:
 ```bash
-https://github.com/MarneyMelo/DesafioDtiProfessorCarlos.git
+https://github.com/MarneyMelo/challenge-dti-professor-carlos.git
 ```
 2. Navigate to the project folder.
 3. Run the aplication: 
@@ -112,10 +112,23 @@ dotnet test
 
 #### Scenarios covered:
 
-* **Calculation Accuracy**: Validating class averages per subject.
-* **Filtering Logic**: Ensuring students with attendance below 75% are correctly identified.
-* **Performance Evaluation**: Verifying the logic for students performing above the class average.
-* **Edge Cases**: Handling empty student lists to prevent application crashes.
+- **Calculation Accuracy**: Validating class averages per subject.
+- **Filtering Logic**: Ensuring students with attendance below 75% are correctly identified.
+- **Performance Evaluation**: Verifying the logic for students performing above the class average.
+- **Edge Cases**: Handling empty student lists to prevent application crashes.
+
+---
+
+## Future Improvements
+
+1. **Web API Integration**:
+- Transition the business logic from a Console Application to an **ASP.NET Core Web API**.
+
+2. **Frontend Development (React)**:
+- Build a modern user interface using **React** to replace the terminal input.
+
+3. **Error Handling**:
+- Improve the error handling with more friendly messages to enhance the UX.
 
 ---
 
